@@ -1,2 +1,2 @@
 # PracticeTasks
- random projects for practice
+ Uploading all of my practice tasks here :)
