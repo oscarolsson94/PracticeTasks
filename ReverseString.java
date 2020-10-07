@@ -2,7 +2,7 @@ public class ReverseString {
 
 	public static void main(String[] args) {
 		
-		String r = reverse("Pomegranites are amazing!!!!");
+		String r = reverse("Lets test this");
 		System.out.println(r);
 	}
 	
