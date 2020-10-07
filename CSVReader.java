@@ -7,7 +7,7 @@ public class CSVReader {
 
 	public static void main(String[] args) {
 		
-		String path = "";
+		String path = ""; //insert path to your .txt document
 		String line = "";
 		BufferedReader br = null;
 		
@@ -18,7 +18,7 @@ public class CSVReader {
 			while((line = br.readLine()) !=null) {
 				
 				String[] values = line.split(",");
-				System.out.println(values[0] + values[5]); //printar första och 4e kolumnen i filen
+				System.out.println(values[0] + values[5]); //printing first and fourth column in each row
 				
 			}			
 						
